@@ -1,0 +1,97 @@
+div p {
+    color:blue;
+}
+h2 + p {
+  color: red;
+}
+h2 ~ p {
+  color: green;
+}
+
+a:link {
+  color: green;
+  background-color: #d4f8d4; 
+}
+a:visited {
+  color: purple;
+  background-color: #f0d4f8; 
+}
+a:hover {
+  color: red;
+  background-color: #ffe0e0;
+}
+a:active {
+  color: orange;
+  background-color: #fff0d4; 
+}
+
+.tareas {
+  list-style: none; 
+  padding: 0;
+  width: 300px;
+  font-family: sans-serif;
+}
+.tareas li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.tareas li:nth-child(even) {
+  background-color: #dcdcdc; 
+}
+.tareas li::before {
+  content: "==> ";
+  color: #555;
+  font-weight: bold;
+}
+.tareas li:hover {
+  background-color: #e6e6e6; 
+  cursor: pointer;
+}
+.tareas li.hecha::after {
+  content: " \\/"; 
+  color: green;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #555;
+}
+nav a:active {
+  background-color: #777;
+}
+
+h1, h2 {
+  color: #222;
+  text-align: center;
+}
+
