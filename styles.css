@@ -9,7 +9,7 @@ p::first-letter{
     font-family:"Old English Text MT", "Goudy Old Style", serif;
     float: legth;
     line-heigth: 0.5;
-    margin-rigth: 8px;
+    margin-rigth: 9px;
     color: darkred
 }
 ::selection{
@@ -75,7 +75,6 @@ a:active {
   font-weight: bold;
 }
 
-/* ====== ESTILO GENERAL ====== */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f7f7f7;
